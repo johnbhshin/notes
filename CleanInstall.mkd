@@ -3,7 +3,7 @@
 #### OS X Lion clean install with USB
 - Reboot with Option
 - Need to erase in the disk manager before reinstalling OS
-- Partition ( Case-sensitive Journaled HFS+)
+- Partition should be Case-sensitive Journaled HFS+
 
 #### Apple ID, iCloud, iTunes and Mail account configuration
 - Johnbhshin@gmail.com
