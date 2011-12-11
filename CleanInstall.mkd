@@ -1,0 +1,55 @@
+## Clean Install
+--------------------------------
+#### OS X Lion clean install with USB
+- Reboot with Option
+- Need to erase in the disk manager before reinstalling OS
+- Partition ( Case-sensitive Journaled HFS+)
+
+#### Apple ID, iCloud, iTunes and Mail account configuration
+- Johnbhshin@gmail.com
+
+#### Evernote install from AppStore
+- bhshin/johnbhshin@gmail.com
+
+#### Dropbox install from [Dropbox]<www.dropbox.com>
+- Johnbhshin@gmail.com
+
+#### Eclipse for Java Developer 32 bit
+* http://www.cs.dartmouth.edu/~cs5/install/eclipse-osx/index.html
+* Java runtime is installed when Eclipse is launched
+* Create and Build command line Java application
+
+#### iTerm2 install
+* Increase the number of rows to 40
+* Customize shell prompt
+
+#### Install Acrobat Reader
+#### Install Chrome
+#### Install Xcode
+* required to install MacPort
+
+#### Install MacPort
+* <http://www.macports.org/> 
+* <https://trac.macports.org/wiki/UsingMacPortsQuickStart>
+
+#### Install Git from [this link](http://code.google.com/p/git-osx-installer/)
+	git config --global user.name "John BH Shin"
+	git config --global user.email johnbhshin@gmail.com
+	git config --global color.diff auto
+	git config --global color.status auto 
+	git config --global color.branch auto
+
+#### Git & Github project
+	mkdir notes
+	cd notes
+	git init
+	touch cleaninstall.mkd
+	git add cleaninstall.mkd
+	git commit -m 'git init'
+	git remote add origin git@github.com:johnbhshin/notes.git
+	git push -u origin master
+
+#### Install RVM
+	bash < <(curl -s https://rvm.beginrescueend.com/install/rvm
+	[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+	rvm # in a new shell
