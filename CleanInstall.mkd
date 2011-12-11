@@ -45,7 +45,7 @@
 * Add the key to github.com -> AccountSettings -> SSH Public Keys (no title needed)
 * Create a repository in github.com
 
-#### Git & Github project
+#### Github project
 	mkdir notes
 	cd notes
 	git init
@@ -54,6 +54,11 @@
 	git commit -m 'git init'
 	git remote add origin git@github.com:johnbhshin/notes.git
 	git push -u origin master
+
+#### git commands
+	git add .
+	git commit -a -m 'updated'
+	git push
 
 #### Install RVM
 	bash < <(curl -s https://rvm.beginrescueend.com/install/rvm
