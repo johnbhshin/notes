@@ -60,6 +60,8 @@
 	git commit -a -m 'updated'
 	git push
 
+#### git commands
+
 #### Install RVM
 	bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
 	echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.profile
