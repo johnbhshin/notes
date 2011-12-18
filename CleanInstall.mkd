@@ -67,5 +67,6 @@
 
 #### Install Ruby
 rvm list known
-rvm install 1.9.3
+rvm install 1.9.3 --with-gcc=clang
+
 
