@@ -65,3 +65,7 @@
 	echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.profile
 	rvm # in a new shell
 
+#### Install Ruby
+rvm list known
+rvm install 1.9.3
+
